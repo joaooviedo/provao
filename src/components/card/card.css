@@ -1,0 +1,57 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card {
+  position: relative;
+  background-image: radial-gradient(
+    farthest-corner at 80px 40px,
+    #ffffff 20%,
+    rgba(31, 88, 100, 0.5) 100%
+  );
+  min-height: calc(100vh - 60px);
+  margin: 20px;
+  padding: 8px;
+  border-radius: 20px;
+  color: black;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  background-color: rgb(43, 0, 255);
+  transform: scale(1.01);
+  transition: 0.1s;
+}
+
+.card section.char {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(20, 23, 225, 0.4);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card section.char h3 {
+  background-color: greenyellow;
+  width: 29px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  color: black;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+}
+
+
